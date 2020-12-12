@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8331627630f013e4db1ebe6b96df140e, type: 3}
+  m_Name: Rosita
+  m_EditorClassIdentifier: 
+  name: Rosita
+  icon: RositaIcon
+  sentences1:
+  - "Ay Jaci, qu\xE9 horror. No me creo lo que ha pasado con Verde. Encima con la
+    semana que llevaba, que Naranja no lo dejaba en paz, todo el d\xEDa grit\xE1ndole"
+  - "T\xFA que sabes. Hay un asesino suelto, UN ASESINO"
+  - Perfecto, perfecto. Sin problemas
+  - Todo el rato, ni respirar le dejaba
+  sentences2:
+  - "Nunca me ha gustado esa decoraci\xF3n. Todos esos cuchillos ah\xED clavados\u2026
+    me parece escalofriante."
+  - "Como si tener cuchillos en la pared fuese normal. Por cierto, \xA1mira qu\xE9
+    llave inglesa me encontr\xE9! \xBFA qu\xE9 es mon\xEDsima?"
+  - "S\xED, bueno no. No era nada serio, adem\xE1s era bastante t\xF3xico y me enfadaba
+    mucho."
+  - "El pobre no pasa p\xE1gina, pero la vida sigue y hay que adaptarse."
+  playerResponses:
+  - "Tranquila, todo va a estar bien\t\t"
+  - "\xBFQu\xE9 tal el trabajo?"
+  - "\xBFDices que le gritaba?"
+  - "\xBFNo notas algo raro?"
+  - "\xBFT\xFA sal\xEDas con Verde no?"
+  - "A\xF1il se comporta de forma extra\xF1a"
+  voices1:
+  - {fileID: 8300000, guid: 7539f4a63b56af54c9beacfc63adc8fb, type: 3}
+  - {fileID: 8300000, guid: 5cf23a0f91183a041881cbafa9d4e7fd, type: 3}
+  - {fileID: 8300000, guid: 1837974f900eb634fb97c399d53476a0, type: 3}
+  - {fileID: 8300000, guid: 6f900f43e8056444aa72a9a83637f528, type: 3}
+  voices2:
+  - {fileID: 8300000, guid: fe5c603a7632c4641b2c75e0e9a3b30c, type: 3}
+  - {fileID: 8300000, guid: 002cc5636d2dbf94db722619a552c7b3, type: 3}
+  - {fileID: 8300000, guid: 950fc636e3d09fa4c997a594ef776e80, type: 3}
+  - {fileID: 8300000, guid: 8a55142f7577d474794aeb22085c4025, type: 3}

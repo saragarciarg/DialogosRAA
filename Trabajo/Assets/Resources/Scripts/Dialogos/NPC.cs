@@ -37,16 +37,6 @@ public class NPC : ScriptableObject
         return GetSentences()[index];
     }
 
-    public AudioClip[] GetAudios()
-    {
-        return round == 1 ? voices1 : voices2;
-    }
-
-    public AudioClip GetAudio(int index)
-    {
-        return GetAudios()[index];
-    }
-
     public string[] GetOptions()
     {
         return playerResponses.Skip((round - 1) * 3).Take(3).ToArray();
@@ -62,5 +52,15 @@ public class NPC : ScriptableObject
     public void ChangeRound()
     {
         round = round == 1 ? 2 : 1;
+    }
+
+     public AudioClip[] GetAudios()
+    {
+        return round == 1 ? voices1 : voices2;
+    }
+
+    public AudioClip GetAudio(int index)
+    {
+        return GetAudios()[index];
     }
 }
