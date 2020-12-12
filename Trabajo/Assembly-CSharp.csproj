@@ -36,9 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
      <Compile Include="Assets\Resources\Scripts\Dialogos\DialogueManager.cs" />
      <Compile Include="Assets\Resources\Scripts\Dialogos\NPC.cs" />
+     <Compile Include="Assets\Resources\Scripts\Dialogos\Work.cs" />
      <Compile Include="Assets\Resources\Scripts\Player\CameraWalk.cs" />
      <Compile Include="Assets\Resources\Scripts\Player\Movement.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
